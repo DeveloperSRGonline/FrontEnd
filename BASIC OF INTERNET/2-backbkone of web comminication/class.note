@@ -1,0 +1,25 @@
+-- Backbone of web communication
+    -> same #rule rahe kar ke protocol banaye 
+
+-- what is tcp and why it is widely used 
+
+-- TCP connection
+    -> kuch bhejo , phir samne wale se kuchh samne wwle kuchh achonoledgement lo 
+    -> three way handshake 
+    -> jo bhi bheje uska server achonoledgement dega 
+
+-- UDP connection
+    -> achonoledgement ka wait mat karo data phekte javo
+    -> live streaming, gaming, video call.
+    -> "speed" is more important than "realibility".
+    -- udp connection establishe.
+
+-- http & https
+    -> 
+    -- http
+        -- http 1.0
+            1.html - 2.css - 3.js 
+
+    -- https
+        -> https secured connection
+        -> certified by "SSL" certoficate

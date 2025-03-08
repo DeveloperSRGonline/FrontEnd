@@ -1,0 +1,32 @@
+#1.topic 1 how internet work.
+-- web 1.0 (#Readonly Web)
+    -> html,css ✅
+    -> javascript ❌
+
+-- web 2.0 (#Read and write) i.e user created content
+    -> html,css ✅
+    -> javascript ✅ (animation,intrections)
+    -> live streaming , realtime gaming , chats creation
+
+-- web 3.0 (#Decentralized Web)
+    -> blockchain , Decentralized apps
+
+-- packets 
+    -> header
+    -> payload (chank of data)
+
+-- packets nikal ke nearest tower ke pass jayega 
+
+-- protocols = (rules sets)
+-- ipv4 (old)
+-- ipv6 (new)
+
+-- device ka ip nahi hota hai 
+-- internet se connect hone par ip address milta hai 
+-- device ka mac address hota hai 
+-- DNS -> eg. google.com -> converted to (144.123.23.455)
+-- browser is client
+-- client requests data from server
+-- client requests 
+-- server gives 
+-- 

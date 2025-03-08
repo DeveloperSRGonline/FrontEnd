@@ -1,0 +1,41 @@
+  # boilerplate code / default code "html:5" "!"- exclamation sign 
+ # Html = is Hyper Text Markup Language
+ # Tags = har cheej jisko left ang brackets and right ang brackets mein likha jaye usey hum tag kahate hai
+ <h1>  <chacha> <kutta>
+
+
+    html > structure
+    css > stylling
+    js > functionalities
+
+    html ke kai saare versions hai aur har version ek different version hai and usme konse tag allowed hai aur koan se nahi ye usi html ke version mein hai , jaise ki html 4.1 version me artical tag nahi hota tha,
+    aise hi kahi saare tags hat jate hai and aa jate hai naye tags naye versions me, ab in tags ko browser chala paaye iske liye ko pata hona chahiye aap konsa html version use kar rahe ho 
+<html></html> -- ise hum root tag kahete hai
+
+h1-h6 ✅
+p ✅
+b ✅
+i ✅
+sup ✅
+sub ✅
+ol ✅
+ul ✅
+li ✅
+br ✅
+hr ✅
+a ✅
+img✅
+html me kabhi bhi error nahi aata
+
+code tag ✅
+pre tag ✅
+
+audio ✅
+video ✅
+
+target = "_blank" : is for opening the link in new tab
+
+sementic tags
+"article" "header" "main" "footer" "aside" "nav" "details"
+sementic tag khud hi ye batata hai ki vo element kya karega 
+
