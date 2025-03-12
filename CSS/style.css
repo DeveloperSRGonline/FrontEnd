@@ -1,0 +1,27 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+h3{
+    color: red;
+}
+/* css - to add colors and visuals modification */
+
+/* selector {
+property:value;
+} */
+
+.chacha{
+    background-color: burlywood;
+}
+.b{ 
+    color:greenyellow;
+}
+#para{
+    font-size: 50px;
+}
+input[placeholder="Enter your name"] {
+    background-color: rgba(172, 255, 47, 0.358);
+    color: white;
+}

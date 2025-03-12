@@ -1,4 +1,4 @@
-  # boilerplate code / default code "html:5" "!"- exclamation sign 
+  # boilerplate code / default code "html:5"/ "!"- exclamation sign 
  # Html = is Hyper Text Markup Language
  # Tags = har cheej jisko left ang brackets and right ang brackets mein likha jaye usey hum tag kahate hai
  <h1>  <chacha> <kutta>
