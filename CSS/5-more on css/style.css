@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/* #box{
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(rgb(255, 255, 255),rgb(246, 255, 82));
+    border-radius: 50%;
+} */
+/* #box1{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    margin-top: 40px;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+
+} */
+
+/* #car1{
+      height:300px;
+        width:300px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50% ;
+}
+#car2{
+      height:300px;
+        width:300px;
+        background-color: rgb(17, 255, 0);
+        position: absolute;
+        top: 40%;
+        left: 40% ;
+}
+#car3{
+      height:300px;
+        width:300px;
+        background-color: rgb(247, 0, 255);
+        position: absolute;
+        top: 60%;
+        left: 30% ;
+} */
+ /* #ise_center_karo{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ } */
+
+ /* #parent{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    position: relative;
+ }
+ #child{
+    position: absolute;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    background-color: lightseagreen;
+ } */
+
+/* #parent{
+    height: 100%;
+    width: 100%;
+    background-color:darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+} 
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: darkkhaki;
+} 
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: darkgrey;
+} 
+#child4{
+    height: 200px;
+    width: 200px;
+    background-color: tan;
+}  */
+
+#parent{
+    padding: 20px; 
+    height: 100%;
+    width: 100%;
+    background-color:darkolivegreen;
+    display: flex;
+    gap: 20px;
+    flex-wrap:nowrap;
+}
+#child{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    border: 3px solid red;
+    flex-shrink: 0;
+}
