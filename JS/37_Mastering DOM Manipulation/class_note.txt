@@ -1,3 +1,37 @@
+after js :
+DOM - [document object model] front ki javascript 
+Backend
+libraries
+dextop apps
+mobile apps
+
+pillars of DOM :
+-- selection of elements ✅
+    -- ek ke liye ==> querySelector
+    -- multiple ke liye ==> querySelectorAll
+    html page ko reffer(document)
+    document.querySelector('h1') 
+    var h = document.querySelector('h1') - jo select kiya tha usko h me rakh diya 
+-- changing html
+    h.innerHTML = 'jo man me hai vo likh do'
+-- changing css
+    h.style.backgroundColor = 'yellow' color yellow ho jayega
+    'rgb,rgba,hsl(all type) likh sakte ho'
+-- Event Listners (hartak capture karna) gatna 
+
+script:src --> body tag khatam hone se pahele likhana hai kabhi bhi
+
+adding event Listner lage hai chalo :
+
+h.addingEventListener('click',function(){
+    console.log('hello shivam. Thanks for click !')
+})
+
+.getElementById(id se pukar ne ke liye) --> is ki madat se hum without # id ko select kar sakte hai
+.querySelector --> is mein # ka use karna padta hai 
+
+-- text change karna and html change karna ye do alag chije hai 
+
 // /*
 // javascript :
 //     DOM
@@ -69,13 +103,4 @@
 
 // box.innerHTML = '<h1>Hue hue😂</h1>'// output : Hue hue😂 // ye as a h1 heading print hoga 
 // box.textContent = '<h1>Hue hue😂</h1>' // output : <h1>Hue hue😂</h1> // jaise ka vaisa print ho gaya hai 
-
-
-let btn = document.querySelector('button')
-let box = document.getElementById('box')
-
-btn.addEventListener('click', function() {
-    // console.log('hello')
-    box.style.backgroundColor = 'red'
-})
 
