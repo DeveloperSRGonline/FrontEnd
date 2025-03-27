@@ -7,7 +7,7 @@ btn.addEventListener('click',function(){
          grow++;
          percent.innerHTML = grow+'%';
          growth.style.width = grow+'%';
-    }, 50);
+    }, 50);  
 
     setTimeout(function(){
         clearInterval(int);
