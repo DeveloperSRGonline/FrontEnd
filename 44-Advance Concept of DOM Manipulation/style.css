@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* #hero{
+    background-color: blue;
+    font-size: 60px;
+}
+#heroine{
+    background-color: rgb(253, 74, 104);
+    font-size: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+button{
+    background: linear-gradient(rgb(255, 153, 0),rgb(233, 255, 160));
+    padding:10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+button:active{
+    scale: 0.95;
+} */

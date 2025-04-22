@@ -1,0 +1,47 @@
+#1.topic 1 how internet work.
+-- web 1.0 (#Readonly Web)
+    -> html,css ✅
+    -> javascript ❌
+
+-- web 2.0 (#Read and write) i.e user created content
+    -> html,css ✅
+    -> javascript ✅ (animation,intrections)
+    -> live streaming , realtime gaming , chats creation
+
+-- web 3.0 (#Decentralized Web)
+    -> blockchain , Decentralized apps
+
+-- packets 
+    -> header
+    -> payload (chank of data)
+
+-- packets nikal ke nearest tower ke pass jayega 
+
+-- protocols = (rules sets)
+-- ipv4 (old)
+-- ipv6 (new)
+
+-- device ka ip address nahi hota hai 
+-- internet se connect hone par ip address milta hai 
+-- ek time pe ek hi bande ke paas hota hai ek IP
+-- device ka mac address hota hai 
+-- DNS -> eg. google.com -> converted to (144.123.23.455)
+-- browser is client
+
+#. client server architecture:
+
+    -- client(browser) requests data from server
+    -- client(browser) requests data
+    -- server(powerful computer which handle request from client and) gives data to them
+
+frontend and backend 
+    frontend: user intrect 
+    backend: server/database 
+
+-- static website : jiska content change nahi hota
+-- dynamic website : jiska content change hota hai 
+
+web hoisting : we put our website on internet and anyone can access it
+
+ IPv4 (xxx.xxx.xxx.xxx) has 4.3 billion addressesc
+ IPv6 provides a larger address space for the future.

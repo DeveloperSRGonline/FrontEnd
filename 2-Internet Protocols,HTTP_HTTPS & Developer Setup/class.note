@@ -1,0 +1,47 @@
+-- Backbone of web communication
+    -> same #rule rahe kar ke protocol banaye (communities) ne milke ek nahi bohat saare communities hai
+
+-- rules banaaye gaye taaki internet par jo bhi chale wo saare companies , os , network , isp ke liye same page par ho , aisa na ho ki koi cheej kisi pe chal rahi hai aur kisi pe nahi chal rahi 
+
+-- protocol means "Rules"  
+
+-- what is tcp and why it is widely used 
+
+-- TCP connection
+    -> kuch bhejo , phir samne wale se kuch achonoledgement lo 
+    -> three way handshake 
+    -> jo bhi bheje uska server achonoledgement dega
+    -> reliable , ordered , error-free 
+    -> retransmit lost packets to ensure data transfered properly
+
+-- UDP connection
+    -> achonoledgement ka wait mat karo data phekte javo
+    -> live streaming, gaming, video call, live crickets.
+    -> "speed" is more important than "realibility".
+    -- udp connection establishe.
+    -> no handshake. 
+-- http & https
+    
+    -- http
+        -- http 1.0
+            1.html -> 2.css -> 3.js  ek ek karke bheje jate the 
+
+        -- http 2.0 
+            -> html ,css ,js ek saath bheje jate hai
+            -> tcp follow karta hai 
+            -> achonoledgement ka wait karna padta hai 
+
+        -- http 3.0
+            -> udp ko follow karta hai 
+            -> html,css,js 
+            -> achonoledgement ka wait nahi karna padta 
+            -> QUIC model ko follow karta hai (tcp + udp) ka combo jo ki reliable ho aisa na ho ki data loss ho jaye and data bhi ultra fast pohache 
+
+
+    -- https
+        -> https secured connection
+        -> certified by "SSL" certoficate se key shared hoti hai 
+        -> keys do hoti hai
+            -> private key (server ke pass hoti hai)
+            -> public key (ye share hoti hai )
+            

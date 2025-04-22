@@ -1,0 +1,78 @@
+ console.log('hello');
+ console.warn('hello');
+ console.error('hello');
+ console.info('hello');
+
+
+ var a -> declaration
+ a = 10 -> initialization
+
+ console.log(a); to print a 
+
+ alert('this is massage');
+ confirm('are you sure')
+ print('hello bhai kuchh likho please')
+
+ Datatypes 
+
+ -- primitive
+     -- number -> (10,2.3,34...5)
+             -> blur color me dikh te hai 
+     -- string -> ('a', 'shivam',)
+             -> character or character set
+     -- boolean -> (true, false)
+     -- undefined -> 
+     -- null 
+     -- symbol ->
+     -- bigint ->
+
+ -- reference
+     -- Array 
+     -- object
+     -- function 
+
+ -- prompt se kuchh bhi string ke form me milta hai 
+
+ var a = 'shivam'
+ var b = 'garade'
+
+ console.log(a + b);  concatenation  shivamgarade
+ console.log(a - b);  NaN
+ console.log(a * b);  NaN
+ console.log(a / b);  NaN
+ console.log(a % b);  NaN
+
+ + -- add , concatination
+ - -- sub
+ * -- multiplication
+ / -- divide
+
+ var a = prompt('Enter first number')  e.g. 12
+ var b = prompt('Enter second number')  e.g. 13
+
+ console.log(a+b);  it will give 1213
+
+ but we want number to ve added 
+ so we need to convert it both number 
+
+ var a = Number(prompt('Enter first number'))
+ var b = Number(prompt('Enter second number'))
+
+ var num1 = Number(prompt('Enter first number)) e.g. 12
+ var num2 = Number(prompt('Enter second number')) e.g. 13
+
+ console.log(num1 + num2);  it will give 25
+
+ var a
+ console.log(a);  it will give "undefined"
+
+-- undefined -> hai par pata nahi / variable is decleared but not initialized 
+-- not defined -> hai hi nahi
+-- null -> kuchh bhi nahi zero bhi nahi (empty) / nothing
+-- symbol -> ek unique data type banane ka kaam karta hai jo ki dobara use nahi kar sakte
+-- bigant ->
+-- bigant and number ko add karna allowed nahi hai
+
+-- hoisting ->
+
+all decleared values are moved to the starting 
